@@ -1,0 +1,9 @@
+$fontFam: "Franklin Gothic Medium", "Arial Narrow";
+$fontReg: 400;
+$fontBold: 700;
+
+@mixin mainTitle() {
+	color: aqua;
+	font-weight: $fontBold;
+	font-family: $fontFam;
+}

@@ -1,0 +1,16 @@
+@import "./assets/partials/animations";
+@import "./assets/partials/buttons";
+@import "./assets/partials/colors";
+@import "./assets/partials/font";
+@import "./assets/partials/mixins";
+@import "./assets/partials/reset";
+@import "./assets/partials/spaziatura";
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.title {
+	@include mainTitle;
+}
